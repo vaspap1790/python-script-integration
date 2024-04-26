@@ -1,0 +1,140 @@
+{
+  "services":[
+    {
+      "id":"PH4C5AR",
+      "name":"[DONT CALL!!! NOT PRODUCTION] fulfil - test - all - go\u0142\u0119bie",
+      "description":null,
+      "created_at":"2020-08-04T15:52:06+02:00",
+      "updated_at":"2023-02-28T08:55:34+01:00",
+      "status":"active",
+      "teams":[
+        {
+          "id":"PH85OHS",
+          "type":"team_reference",
+          "summary":"fulfil - Pigeons - cfcstateservice",
+          "self":"https://api.pagerduty.com/teams/PH85OHS",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/teams/PH85OHS"
+        }
+      ],
+      "alert_creation":"create_alerts_and_incidents",
+      "addons":[
+
+      ],
+      "scheduled_actions":[
+
+      ],
+      "support_hours":null,
+      "last_incident_timestamp":"2024-04-19T02:20:04Z",
+      "escalation_policy":{
+        "id":"PR0IMDN",
+        "type":"escalation_policy_reference",
+        "summary":"[DON'T USE! NON-PRODUCTION, ONLY FOR TESTS] ospcfc - test - go] ospcfc - test - go\u0142\u0119bie",
+        "self":"https://api.pagerduty.com/escalation_policies/PR0IMDN",
+        "html_url":"https://ocado-tech-osp.pagerduty.com/escalation_policies/PR0IMDN"
+      },
+      "incident_urgency_rule":{
+        "type":"constant",
+        "urgency":"low"
+      },
+      "acknowledgement_timeout":null,
+      "auto_resolve_timeout":600,
+      "integrations":[
+        {
+          "id":"P86PLUM",
+          "type":"events_api_v2_inbound_integration_reference",
+          "summary":"API",
+          "self":"https://api.pagerduty.com/services/PH4C5AR/integrations/P86PLUM",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/services/PH4C5AR/integrations/P86PLUM"
+        },
+        {
+          "id":"PA3R4O2",
+          "type":"event_transformer_api_inbound_integration_reference",
+          "summary":"Amazon CloudWatch",
+          "self":"https://api.pagerduty.com/services/PH4C5AR/integrations/PA3R4O2",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/services/PH4C5AR/integrations/PA3R4O2"
+        }
+      ],
+      "type":"service",
+      "summary":"[DONT CALL!!! NOT PRODUCTION] fulfil - test - all - go\u0142\u0119bie",
+      "self":"https://api.pagerduty.com/services/PH4C5AR",
+      "html_url":"https://ocado-tech-osp.pagerduty.com/service-directory/PH4C5AR"
+    },
+    {
+      "id":"PO9BO2U",
+      "name":"ecom - sit - cymes - Platform - flexibility",
+      "description":null,
+      "created_at":"2024-01-26T14:38:59+01:00",
+      "updated_at":"2024-01-26T14:38:59+01:00",
+      "status":"active",
+      "teams":[
+        {
+          "id":"PH85OHS",
+          "type":"team_reference",
+          "summary":"fulfil - Pigeons - cfcstateservice",
+          "self":"https://api.pagerduty.com/teams/PH85OHS",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/teams/PH85OHS"
+        }
+      ],
+      "alert_creation":"create_alerts_and_incidents",
+      "addons":[
+
+      ],
+      "scheduled_actions":[
+
+      ],
+      "support_hours":null,
+      "last_incident_timestamp":"2024-01-26T13:49:03Z",
+      "escalation_policy":{
+        "id":"PR0IMDN",
+        "type":"escalation_policy_reference",
+        "summary":"[DON'T USE! NON-PRODUCTION, ONLY FOR TESTS] ospcfc - test - go] ospcfc - test - go\u0142\u0119bie",
+        "self":"https://api.pagerduty.com/escalation_policies/PR0IMDN",
+        "html_url":"https://ocado-tech-osp.pagerduty.com/escalation_policies/PR0IMDN"
+      },
+      "incident_urgency_rule":{
+        "type":"constant",
+        "urgency":"high"
+      },
+      "acknowledgement_timeout":null,
+      "auto_resolve_timeout":null,
+      "integrations":[
+        {
+          "id":"PEZBTGG",
+          "type":"generic_events_api_inbound_integration_reference",
+          "summary":"Temperature Tracking Service Test New Relic",
+          "self":"https://api.pagerduty.com/services/PO9BO2U/integrations/PEZBTGG",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/services/PO9BO2U/integrations/PEZBTGG"
+        },
+        {
+          "id":"PT1IY61",
+          "type":"events_api_v2_inbound_integration_reference",
+          "summary":"Prometheus",
+          "self":"https://api.pagerduty.com/services/PRYVD2M/integrations/PT1IY61",
+          "html_url":"https://ocado-tech-osp.pagerduty.com/services/PRYVD2M/integrations/PT1IY61"
+        }
+      ],
+      "type":"service",
+      "summary":"[DONT CALL!!! NOT PRODUCTION] fulfil - test - all - temperature tracking service",
+      "self":"https://api.pagerduty.com/services/PO9BO2U",
+      "html_url":"https://ocado-tech-osp.pagerduty.com/service-directory/PO9BO2U"
+    }
+  ],
+  "integration":{
+    "id":"PT1IY61",
+    "type":"events_api_v2_inbound_integration",
+    "summary":"Prometheus",
+    "self":"https://api.pagerduty.com/services/PRYVD2M/integrations/PT1IY61",
+    "html_url":"https://ocado-tech-osp.pagerduty.com/services/PRYVD2M/integrations/PT1IY61",
+    "name":"Prometheus",
+    "service":{
+      "id":"PRYVD2M",
+      "type":"service_reference",
+      "summary":"ecom - sit - cymes - Platform - flexibility",
+      "self":"https://api.pagerduty.com/services/PRYVD2M",
+      "html_url":"https://ocado-tech-osp.pagerduty.com/service-directory/PRYVD2M"
+    },
+    "created_at":"2024-04-26T09:32:00+01:00",
+    "vendor":null,
+    "integration_key":"0205d95566c94209c0056fd0ca2f86cb"
+  }
+}
